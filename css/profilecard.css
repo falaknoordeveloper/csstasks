@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("../imgs/Sprinkle.svg");
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    margin-top: 30px;
+    width:400px;
+    height:550px;
+   border-radius: 30px;
+    background-color: rgb(246, 251, 251);
+ 
+}
+.img{
+    width:100%;
+    background-color: rgba(101, 78, 232, 0.937);
+    height:200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.img img{
+    width:50%;
+    height:170px;
+    border-radius: 50%;
+
+}
+
+h1,p{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.social-icons{
+    margin: 30px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    font-size: 22px;
+    
+}
+.social-icons a{
+    color:black;
+}
+
+.social-icons a:hover{
+    color:rgb(62, 35, 211);
+}
+.last-para{
+    line-height: 20px;
+
+}
+.btn1{
+    background-color: blue;
+    color:white;
+    font-size: 14px;
+    padding:10px 19px;
+    border: none;
+    margin:40px 70px;
+    border-radius: 40px;
+}
+.btn2{
+    color:black;
+    font-size: 13px;
+    padding:10px 15px;
+    border:1px solid black;
+    border-radius: 40px;
+
+}
+.btn2:hover{
+    background-color: rgb(32, 32, 31);
+    color:white;
+}
